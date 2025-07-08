@@ -1,0 +1,90 @@
+{
+  "designStyle": {
+    "colorPalette": {
+      "primaryBackground": "#F8F8F8",
+      "secondaryBackground": "#FFFFFF",
+      "headerBackground": "#363A4B",
+      "primaryText": "#333333",
+      "secondaryText": "#666666",
+      "accentColor": "#007BFF",
+      "buttonText": "#FFFFFF",
+      "placeholderText": "#AAAAAA",
+      "borderColor": "#E0E0E0"
+    },
+    "typography": {
+      "fontFamily": "Sans-serif (e.g., Inter, Roboto, Noto Sans)",
+      "heading1": {
+        "fontSize": "24px-32px",
+        "fontWeight": "bold",
+        "color": "#FFFFFF"
+      },
+      "heading2": {
+        "fontSize": "18px-20px",
+        "fontWeight": "bold",
+        "color": "#333333"
+      },
+      "bodyText": {
+        "fontSize": "14px-16px",
+        "fontWeight": "regular",
+        "color": "#666666"
+      },
+      "buttonText": {
+        "fontSize": "16px",
+        "fontWeight": "medium",
+        "color": "#FFFFFF"
+      },
+      "captionText": {
+        "fontSize": "12px",
+        "fontWeight": "regular",
+        "color": "#999999"
+      }
+    },
+    "spacing": {
+      "unit": "8px (base unit, multiples used)",
+      "padding": {
+        "small": "8px",
+        "medium": "16px",
+        "large": "24px"
+      },
+      "margin": {
+        "small": "8px",
+        "medium": "16px",
+        "large": "24px"
+      },
+      "gap": {
+        "betweenElements": "8px-16px",
+        "betweenSections": "24px-32px"
+      }
+    },
+    "visualHierarchy": "Clear, with larger, bolder text for titles and primary actions highlighted with accent colors. Information is grouped into distinct cards.",
+    "icons": "Monochrome, simple line-art style."
+  },
+  "structuralElements": {
+    "header": {
+      "style": "Dark background, centered title/subtitle, fixed to top."
+    },
+    "searchBar": {
+      "style": "Rounded input field with a prominent, rounded accent-colored button."
+    },
+    "navigationTabs": {
+      "style": "Segmented control, rounded corners, active state highlighted with accent color and bold text."
+    },
+    "contentCard": {
+      "style": "Rectangular, white background, rounded corners, subtle drop shadow, contains an image, title, and description.",
+      "layout": "Vertical stacking of image, title, and description."
+    },
+    "buttons": {
+      "style": "Rounded corners, solid fill for primary actions, text-only for secondary actions."
+    }
+  },
+  "layoutPrinciples": {
+    "gridSystem": "Single-column layout optimized for mobile viewports.",
+    "alignment": "Elements generally left-aligned within their containers, with some text (e.g., button text) centrally aligned.",
+    "responsiveness": "Implied mobile-first design with vertical stacking and full-width elements (within padding)."
+  },
+  "otherAttributes": {
+    "borderRadius": "Consistent application of medium-sized rounded corners (e.g., 8px-12px) on cards, buttons, and input fields.",
+    "shadows": "Subtle, soft drop shadows applied to cards and interactive elements for depth.",
+    "transitions": "Likely smooth transitions for interactive states (e.g., button hovers, tab changes), though not visible in static image."
+  }
+}

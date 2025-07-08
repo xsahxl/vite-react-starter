@@ -1,0 +1,74 @@
+{
+  "design_system_profile": {
+    "overarching_design_style": {
+      "color_palette": {
+        "primary_blue": "#185ABD",
+        "secondary_blue": "#3670E3",
+        "dark_background_blue": "#203A5C",
+        "light_background_grey": "#F5F5F5",
+        "text_dark": "#333333",
+        "text_light": "#FFFFFF",
+        "border_grey": "#CCCCCC"
+      },
+      "typography": {
+        "font_family": "System UI (likely sans-serif, e.g., PingFang SC, Helvetica Neue, Arial)",
+        "heading_sizes": {
+          "h1": "approx. 28-32px (e.g., '中阿创新合作平台')",
+          "h2": "approx. 18-20px (e.g., '搜索关键词: 机器人')",
+          "h3": "approx. 16px (e.g., '字数机器人Unitree H1 / H1-2')"
+        },
+        "body_text_size": "approx. 14px",
+        "link_text_size": "approx. 14px",
+        "font_weights": {
+          "bold": "for headings and key information",
+          "regular": "for body text"
+        },
+        "line_height": "comfortable for readability (e.g., 1.5 for body text)"
+      },
+      "spacing": {
+        "padding": {
+          "small": "8px - 10px",
+          "medium": "16px - 20px",
+          "large": "24px - 32px"
+        },
+        "margin": {
+          "small": "8px - 10px",
+          "medium": "16px - 20px",
+          "large": "24px - 32px"
+        },
+        "element_spacing": "Consistent vertical and horizontal spacing between elements."
+      },
+      "visual_hierarchy": "Clear hierarchy established through font size, weight, and color. Primary actions (search button) are prominent. Information blocks are well-defined.",
+      "iconography": "Minimalist, line-based icons (e.g., dropdown arrow).",
+      "border_radius": "Subtle rounded corners on buttons, input fields, and cards (e.g., 4-8px)."
+    },
+    "structural_elements_and_layout_principles": {
+      "layout_grid": "Implied vertical stacking with clear sections. Content appears to be centered or left-aligned within a main container.",
+      "header": {
+        "height": "fixed height with navigation/back button.",
+        "background": "dark gradient blue."
+      },
+      "main_content_area": {
+        "background": "white or light grey, contrasting with header/footer.",
+        "shadows": "Subtle drop shadows on cards/containers (e.g., search bar container, result cards) for depth."
+      },
+      "search_component": {
+        "layout": "Input field and button horizontally aligned within a card-like container.",
+        "input_field": "Full width, rounded corners, light background, placeholder text.",
+        "button": "Prominent blue background, white text, rounded corners, full width within its container."
+      },
+      "list_items_or_cards": {
+        "structure": "Image on left, text content on right.",
+        "spacing": "Generous vertical spacing between items.",
+        "borders": "Subtle borders or shadows to define individual items."
+      },
+      "responsive_design_principles": "Assumed to be responsive, with elements stacking vertically on smaller screens and potentially adjusting widths on larger screens (though not explicitly shown in this single screenshot)."
+    },
+    "other_attributes": {
+      "interaction_states": "Hover/active states for buttons and interactive elements are implied but not shown.",
+      "feedback_mechanisms": "No explicit feedback mechanisms (e.g., loading indicators, error messages) visible.",
+      "accessibility_considerations": "Sufficient color contrast for text readability is present.",
+      "illustrations_imagery": "Placeholder images with dark, stylized graphics for product representation."
+    }
+  }
+}
